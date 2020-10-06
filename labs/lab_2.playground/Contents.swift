@@ -29,3 +29,20 @@ for (key, value) in dictionary{
 print("")
 print("")
 
+//4.3.1
+func arithmeticMean(_ numbers: Double...) -> Double {
+    var total: Double = 0
+    for number in numbers {
+        total += number
+    }
+    return total
+}
+var pidor = arithmeticMean(5,6,1,2,6)
+print(pidor)
+
+//4.3.2
+func average(_ numb: Double...)->Double{
+    return arithmeticMean(2,3,4,56,7)
+}
+
+//4.3.3
